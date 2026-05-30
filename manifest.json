@@ -1,0 +1,32 @@
+{
+  "name": "LifeSync",
+  "short_name": "LifeSync",
+  "description": "Your AI-powered wellness tracker",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#050505",
+  "theme_color": "#e11d2e",
+  "categories": ["health", "fitness", "lifestyle"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    { "name": "Dashboard", "url": "/?page=dashboard", "description": "Open your wellness dashboard" },
+    { "name": "Log Habit", "url": "/?page=habits", "description": "Check off today's habits" },
+    { "name": "AI Coach", "url": "/?page=ai", "description": "Chat with Luna" }
+  ]
+}
